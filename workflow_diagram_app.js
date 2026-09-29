@@ -155,7 +155,7 @@
         h(ReactFlowComp, {
           nodes: rfNodes, edges: rfEdges, nodeTypes: nodeTypes,
           onNodeClick: onNodeClick, onPaneClick: onPaneClick,
-          defaultViewport: { x: -250, y: 200, zoom: 1.5 },
+          defaultViewport: { x: -550, y: 150, zoom: 1.5 },
           minZoom: 0.12, maxZoom: 1.75, defaultEdgeOptions: { type: 'smoothstep' },
           nodesDraggable: false, proOptions: { hideAttribution: true },
         },
